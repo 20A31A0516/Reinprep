@@ -1,0 +1,97 @@
+setTUPLE METHODS:
+1)INDEX
+  T=(1,2,3,4)
+  res=t.index(2)
+   then res=1
+if mutliple same elements then it gives first occurence.
+syntax: tuple.index(value)
+2)COUNT
+return the count of elements in tuple
+t.count(value)
+
+
+
+
+SET METHODS:
+S={1,1,1,2,3,3,3,5,6}
+1)union ,intersection,difference,add,copy,clear,difference_update
+s1={1,2,3,4}
+s2={3,4,5,6}
+res1=s1.intersection(s2)    {3,4}
+res2=s1.union(s2)           {1,2,3,4,5,6}
+res3=s1.difference(s2)      {1,2}
+res4=s2.difference(s1)      {5,6}
+difference_update will update the s1 object i.e the initial one ,doesnt return anything,just updates the intitail set
+s1.add(0)  {0,1,2,3,4}
+s5=s1.copy()    or s1=s5
+s1.clear() returns empty set
+
+
+
+
+CONDITIONAL STATEMENTS:
+3 keywords: if,elif,else
+print("even") if n%2==0 else print("odd")  #ternary operator method
+1)if cond:
+
+
+  else:
+2)if cond:
+  
+
+  elif cond:
+  
+
+  else:
+#we can have multiple elif statements
+#if is mandatory,elif and else are optional
+
+
+
+
+DICTIONARY : A DATA TYPE OR DATA STRUCTURE THAT STORE VALUES IN KEY: VALUR PAIR
+dictinary={1:{'name':'A','class':1},
+2:{'name':'B','class':2}
+}
+accessing value:
+dictinary[1]
+a) d.update({})  ===== it only takes dictionary as argument.
+b) key repeat ,then value will be updated
+d.get()
+
+
+
+
+GITHUB
+1)CREATE A NEW REPOSITORY--> NAME --> PUBLIC-->DESCRIPTION-->CREATE REPO
+2)HTTPS LINK
+3)FOLDER LINK --->CMD   
+      1)dir 
+      2)git init 
+      3)git remote add origin {link to remote repo} 
+      4)git add .      [staging area]
+      5)git commit -m "a mandatory message"   [ staging area]
+      6)git push origin master                  [server]   other branch: git branch [name] then git push origin [name of the branch]
+4)above folder --->view--->show--->hidden items
+5)install git and git cli
+
+
+
+looping
+1) for i in object
+2)range function
+range(start,end,step)
+range--> list
+ exponent operator ** ----> base**exponent 
+for i in range(0,len(l)):
+     print(i)                 ## generating indices
+
+
+
+WHILE LOOP:
+while condtion:
+     #body
+
+diff btw in while and for
+for has termination point
+while doesnt have termination
